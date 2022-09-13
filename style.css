@@ -91,20 +91,13 @@ html{
        transform: scale(1.1);
    }
    
-   
+   .form-check{
+    padding: 15px;
+   }
    
    .banner-container{
        
        height: 100vh;
-   }
-   
-   .banner-container h1{
-       color: coral;
-       font-size: 3.5rem;
-       background-color: rgba(80,10,0.7,0.4);
-       padding: 10px 20px ;
-       font-family: 'Handlee', cursive; 
-       border-radius: 4px;
    }
 
    .bg-cp{
@@ -117,9 +110,29 @@ html{
    .fs-7{
     font-size: 15px;
    }
+   .search-btn{
+    padding: 10px;
+    margin: 10px;
+   }
+
+   .inp-width{
+    width: 240px;
+   }
+
+   .inp-hight{
+    height: 52px;
+   }
    
-   
-   
+   .item{
+    margin: 5px;
+    padding: 2px;
+    color: #000000;
+    font-weight:800;
+   }
+
+   .form-select{
+    padding: 6px;
+   }
    /* header end here*/
    
    /* Footer start here*/
