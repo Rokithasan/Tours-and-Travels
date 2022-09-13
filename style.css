@@ -47,7 +47,8 @@ html{
    .navbar{
        
        padding: 1% 10% ;
-       background-color: rgba(26, 87, 128, 0.8);     
+       background-color: rgba(247, 235, 235, 0.8);
+       
    }
    
    .navbar-icon{
@@ -58,37 +59,35 @@ html{
    
    .navbar-brand img{
        
-       width: 70px;
+       width: 100px;
        height: auto ;
        
    }
    
    .btn{
        
-       background-color:#99154E;
-       color: white;
+       background-color:#000000;
+       color: #FFFFFF;
        transition: 3s;
    }
    
    .btn:hover{
        
-       background-color: #FFC93C;
+       background-color: #f3f1ea;
        transform: scale(1.07);
-       color: white;
+       color: rgb(0, 0, 0);
    }
    
    .nav-link{
        font-size: 22px;
-       color: #FFEEDB;
+       color: #080808;
        margin: 10px;
-       border-radius: 4px;
-       transition: 4s; 
    }
    
    .nav-link:hover{
        
-       background-color: #99154E;
-       color: white;
+       background-color: #59d3f1;
+       color: rgb(2, 2, 2);
        transform: scale(1.1);
    }
    
@@ -107,127 +106,10 @@ html{
        font-family: 'Handlee', cursive; 
        border-radius: 4px;
    }
-
-   .col{
-    align-items: center;
-    background-color: white;
-   }
-
-   .flight-btn{
-
-    background-color:#78c266;
-       color: white;
-       transition: 3s;
-       padding: 5px;
-       margin: 10px;
-   }
-
-   .flight-btn:hover{
-
-    background-color: #FFC93C;
-    color: white;
-
-   }
-
-   .hotel-btn{
-
-    background-color:#78c266;
-       color: white;
-       transition: 3s;
-       padding: 5px;
-       margin: 10px;
-   }
-
-   .hotel-btn:hover{
-
-    background-color: #FFC93C;
-    color: white;
-
-   }
-
-   label
-   {
-       float: left;
-       width: 150px;
-       padding-right: 10px;
-       text-align: right;
-   }
-
-   .col-3{
-    border: 1px solid;
-    border-radius: 4px;
-    padding: 14px;
-   }
-
-   .col{
-     width: 100%;
-   }
-
-   .dropdown-container {
-    display: none;
-    align-items: center;
-    padding: 5px;
-  }
    
    
    
    /* header end here*/
-
-   
-   /* features start here*/
-   
-   #features{
-       padding: 5% 10% ;
-       background: #e8ded2;
-   }
-   
-   .features-col{
-      border: 1px solid #ff02c0;
-       border-radius: 4px;
-       padding: 14px;
-       margin: 20px 0 ;
-       transition: .4s;
-       
-   }
-   
-   .features-col:hover{
-       transform: scale(1.1);
-       box-shadow: 2px 7px 4px black;
-       
-   }
-   
-   .icon-style{
-       background: #bb0aac ;
-       color: white;
-       padding: 13px;
-       margin: 7px 0 ;
-        
-   }
-
-
-   
-   /* featcher end here*/
-   
-   
-   
-   /* Contact me start here*/
-   
-   #contact{
-       
-       background: #AD6C80;
-       padding: 2% 10%;
-       
-   }
-   
-   .form-group label{
-       
-       margin-bottom: 0;
-       font-weight: bold;
-       color: white;
-   }
-   
-   
-   /* contact me end here*/
    
    /* Footer start here*/
    
@@ -267,4 +149,3 @@ html{
        
        
    }
-      
