@@ -64,19 +64,34 @@ html{
        
    }
    
-   .btn{
-       
-       background-color:#000000;
-       color: #FFFFFF;
-       transition: 3s;
+   .btn{   
+    background-color:#FFFFFF; /* Green */
+    border: none;
+    color:#000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+
+   }
+
+   .search-button{
+
+    background-color: #FFB81C; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 15px;
+
    }
    
-   .btn:hover{
-       
-       background-color: #f3f1ea;
-       transform: scale(1.07);
-       color: rgb(0, 0, 0);
-   }
    
    .nav-link{
        font-size: 22px;
@@ -104,6 +119,14 @@ html{
      background-color: #FFFFFF;
      margin: 10px;
    }
+   .button{
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    margin-bottom: -100px;
+   }
    .fs-8{
     font-size: 15px;
    }
@@ -112,7 +135,7 @@ html{
    }
    .search-btn{
     padding: 10px;
-    margin: 10px;
+    margin-bottom: -30px;
    }
 
    .inp-width{
@@ -130,9 +153,40 @@ html{
     font-weight:800;
    }
 
+   .item2{
+    width: 20%;
+    color: #000000;
+    font-weight:800;
+   }
+
    .form-select{
     padding: 6px;
    }
+
+
+   .tabs__button--active{
+
+    font-weight: 900;
+}
+
+.tabs__button{
+    display: block;
+    outline:none;
+}
+
+.tabs__content{
+
+    display: none;
+    padding: 40px;
+    margin: 90px;
+    border-radius: 30px;
+
+}
+
+.tabs__content--active{
+    display: block;
+}
+
    /* header end here*/
    
    /* Footer start here*/
