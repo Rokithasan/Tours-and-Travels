@@ -47,7 +47,6 @@ html{
    .navbar{
        
        padding: 1% 10% ;
-       background-color: rgba(247, 235, 235, 0.8);
        
    }
    
@@ -91,19 +90,31 @@ html{
     border-radius: 15px;
 
    }
+
+   .signIn-button{
+
+    background-color: #1d9fd3; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+
+   }
    
    
    .nav-link{
        font-size: 22px;
-       color: #080808;
+       color: #FFFFFF;
        margin: 10px;
    }
    
-   .nav-link:hover{
-       
-       background-color: #000000;
+   .nav-link:hover{      
        color:#FFFFFF;
-       transform: scale(1.1);
    }
    
    .form-check{
