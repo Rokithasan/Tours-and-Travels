@@ -34,29 +34,29 @@
           
           <header>
               
-              <nav class="navbar navbar-expand-md ">
+            <nav class="navbar navbar-expand-md ">
   
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class=""><i class="fas fa-bars navbar-icon"></i> </span>
-  </button>
-  
-  <a class="navbar-brand " href="Home.html">
-      
-      <img class="img-fluid rounded-circle " src="images/TMX6163971591944671TripBegin-Logo.png" alt="logo">
-      
-  </a>
-  
-  
-  <div class="collapse navbar-collapse" id="navbarNav">
-   
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link text-center  text-md-left signIn-button" href="index.html">Sign In</a>
-      </li>    
-    </ul>
-  </div>
-  
-</nav>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><i class="fas fa-bars navbar-icon"></i> </span>
+              </button>
+              
+              <a class="navbar-brand " href="Home.html">
+                  
+                  <img class="img-fluid rounded-circle " src="images/TMX6163971591944671TripBegin-Logo.png" alt="logo">
+                  
+              </a>
+              
+              
+              <div class="collapse navbar-collapse" id="navbarNav">
+               
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-center  text-md-left signIn-button" href="SignIn.html">Sign In</a>
+                  </li>    
+                </ul>
+              </div>
+              
+            </nav>
             <!-- banner photo-->
               
              <section id="banner">
@@ -70,17 +70,16 @@
                             <div class="btn tabs__button tabs__button--active " data-for-tab="2">Hotel</div>         
                         </div>
 
-                            <div class=" p-3 bg-cp  tabs__content tabs__content--active" data-tab="1" >
+                            <div class="bg-cp  tabs__content tabs__content--active " data-tab="1" >
                 
 
-                              <div class="tabs">
-                                
-                                <div class="tabs_-sidebar btn-group">
-              
-                                  
+                              <div class="tabs">   
+
+                              <div class="tabs_-sidebar btn-group">   
+
                               <button class="tabs__button  tabs__button--active " data-for-tab="3">One Way</button>
-                              <button class="tabs__button  tabs__button--active" data-for-tab="4">Rounded</button>
-                              <button class="tabs__button tabs__button--active" data-for-tab="5">Multy City</button>
+                              <button class="tabs__button  tabs__button--active " data-for-tab="4">Rounded</button>
+                              <button class="tabs__button tabs__button--active " data-for-tab="5">Multy City</button>
                               
                             </div>
               
@@ -123,9 +122,9 @@
                                     <input type="date" name="" id="" class="form-control">
                                 </div>
                                 <div class="item">
-                                    <label for="" class=" fw-bold fs-8 p-3"> Cabin Calass & Travellers </label>
+                                    <label for="" class=" fw-bold fs-8"> Cabin Calass & Travellers </label>
               
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select fw-bold fs-8 mb-4" aria-label="Default select example">
                                         <option selected>Choose Your Class</option>
                                         <option value="1">Cabin Calass</option>
                                         <option value="2">Travellers</option>
@@ -174,9 +173,9 @@
                                     <input type="date" name="" id="" class="form-control">
                                 </div>
                                 <div class="item">
-                                    <label for="" class=" fw-bold fs-8 p-3"> Cabin Calass & Travellers </label>
+                                    <label for="" class=" fw-bold fs-8"> Cabin Calass & Travellers </label>
               
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select fw-bold fs-8 mb-4" aria-label="Default select example">
                                         <option selected>Choose Your Class</option>
                                         <option value="1">Cabin Calass</option>
                                         <option value="2">Travellers</option>
@@ -224,10 +223,10 @@
                                     <label for="" class=" fw-bold fs-8 p-3"> Return </label>
                                     <input type="date" name="" id="" class="form-control">
                                 </div>
-                                <div class="item">
-                                    <label for="" class=" fw-bold fs-8 p-3"> Cabin Calass & Travellers </label>
+                                <div class="item ">
+                                    <label for="" class=" fw-bold fs-8 "> Cabin Calass & Travellers </label>
               
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select fw-bold fs-8 p-2 " aria-label="Default select example">
                                         <option selected>Choose Your Class</option>
                                         <option value="1">Cabin Calass</option>
                                         <option value="2">Travellers</option>
@@ -235,6 +234,53 @@
                                 </div>
               
                             </div>
+
+                            <div class="d-flex align-items-center">
+                                                  
+                              <div class="item">
+                                  <label for="exampleDataList" class="form-label fw-bold fs-8 p-3 "> Form </label>
+                                  <input class="form-control imp-width" list="datalistOptions" id="exampleDataList" placeholder="Airport Or City">
+                                  <datalist id="datalistOptions">
+                                    <option value="San Francisco">
+                                    <option value="New York">
+                                    <option value="Seattle">
+                                    <option value="Los Angeles">
+                                    <option value="Chicago">
+                                  </datalist>
+                              </div>
+            
+                              <div class="item">
+                                  <label for="exampleDataList" class="form-label fw-bold fs-8 p-3 "> To </label>
+                                  <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Airport Or City">
+                                  <datalist id="datalistOptions">
+                                    <option value="San Francisco">
+                                    <option value="New York">
+                                    <option value="Seattle">
+                                    <option value="Los Angeles">
+                                    <option value="Chicago">
+                                  </datalist>
+                              </div>
+            
+                              <div class="item">
+                                  <label for="" class=" fw-bold fs-8 p-3"> Depart</label>
+                                  <input type="date" name="" id="" class="form-control">
+                              </div>
+            
+                              <div class="item">
+                                  <label for="" class=" fw-bold fs-8 p-3"> Return </label>
+                                  <input type="date" name="" id="" class="form-control">
+                              </div>
+                              <div class="item ">
+                                  <label for="" class=" fw-bold fs-8 "> Cabin Calass & Travellers </label>
+            
+                                  <select class="form-select fw-bold fs-8 p-2 " aria-label="Default select example">
+                                      <option selected>Choose Your Class</option>
+                                      <option value="1">Cabin Calass</option>
+                                      <option value="2">Travellers</option>
+                                    </select>
+                              </div>
+            
+                          </div>
               
                             </div>
               
@@ -278,9 +324,9 @@
                                   </div>
 
                                   <div class="item2">
-                                      <label for="" class=" fw-bold fs-8 p-3 "> Rooms and Guests </label>
+                                      <label for="" class=" fw-bold fs-8"> Rooms and Guests </label> </br>
 
-                                      <select class="form-select" aria-label="Default select example">
+                                      <select class="form-select fw-bold fs-8 p-2 " aria-label="Default select example">
                                           <option selected>1 Room 2 Guest </br> 2 adults</option>
                                           <option value="2">1 Room 2 Guest </br> 2 child</option>
                                         </select>
@@ -303,7 +349,8 @@
                  
                  <div class="d-block d-xl-none rounded-2 bg-cp py-3 px-3">
 
-                 </div>
+                  </div>
+                
              </section>                          
           </header>
           

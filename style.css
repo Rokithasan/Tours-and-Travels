@@ -33,52 +33,41 @@ html{
    
     /* header start here*/
    
-   header{
-       
-       background-image: url(images/banner.jpg);
-       background-position: center;
-       background-attachment: fixed;
-       background-repeat: no-repeat;
-       background-size: cover;
-       
-   }
+    header{
+        font-size: 28px;
+        font-weight: 600;
+        color:#1d9fd3 ;
+        background-color: #1d9fd3;
+       }
    
    
    .navbar{
-       
-       padding: 1% 10% ;
-       
+
+    background-color: beige;
    }
-   
-   .navbar-icon{
-       
-       color: #FFEEDB;
-       
+
+   .navbar-nav{
+    background-color: beige;
    }
-   
-   .navbar-brand img{
-       
-       width: 100px;
-       height: auto ;
-       
-   }
-   
-   .btn{   
-    background-color:#FFFFFF; /* Green */
+
+   .signIn-button{
+
+    background-color:#1d9fd3; 
     border: none;
-    color:#000000;
-    padding: 15px 32px;
+    color: white;
+    padding: 8px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-weight: 900;
+    border-radius: 10px;
 
    }
 
    .search-button{
 
-    background-color: #FFB81C; /* Green */
+    background-color: #FFB81C;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -91,19 +80,8 @@ html{
 
    }
 
-   .signIn-button{
-
-    background-color: #1d9fd3; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 900;
-    border-radius: 10px;
-
+   .field button{
+    background-color: #1d9fd3;
    }
    
    
@@ -127,26 +105,26 @@ html{
    }
 
    .bg-cp{
-     background-color: #FFFFFF;
-     margin: 10px;
+
+     background-color:beige;
    }
    .button{
-    background-color: #FFFFFF;
+    background-color:beige;
     padding: 10px;
     margin-left: 300px;
     margin-right: 300px;
     border-radius: 10px;
-    margin-bottom: -100px;
    }
    .fs-8{
     font-size: 15px;
+    padding: 12px;
    }
    .fs-7{
     font-size: 15px;
    }
    .search-btn{
     padding: 10px;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
    }
 
    .inp-width{
@@ -158,16 +136,17 @@ html{
    }
    
    .item{
-    margin: 5px;
-    padding: 2px;
     color: #000000;
     font-weight:800;
+    margin: 4px;
+    padding: 4px;
    }
 
    .item2{
-    width: 20%;
     color: #000000;
     font-weight:800;
+    margin: 4px;
+    padding: 3px;
    }
 
    .form-select{
@@ -178,25 +157,42 @@ html{
    .tabs__button--active{
 
     font-weight: 900;
+    border: none;
 }
 
 .tabs__button{
+
+    background-color: beige;
     display: block;
     outline:none;
+    border: none;
+    padding: 10px;  
+    font-weight: 14px; 
 }
+.btn-group{
+    font-weight: 12px;
+    background-color: beige;
+}
+
 
 .tabs__content{
 
     display: none;
-    padding: 40px;
-    margin: 90px;
     border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
 .tabs__content--active{
     display: block;
 }
+
+.tabs_-sideba{
+    float: left;
+    margin-bottom: -30px;
+}
+
 
    /* header end here*/
    
