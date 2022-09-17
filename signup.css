@@ -197,4 +197,36 @@ footer a:hover{
     color: #FFFFFF;
 }
 
+.copyright{
+
+    background-color: #1d9fd3;
+    color: white;
+    height: 40px;
+}
+
+.col-lg-3{
+
+    padding: 20px;
+}
+
+.col-lg-3 a{
+    
+    color: white;
+
+    padding: 20px;
+}
+
+
+.col-lg-3 p{
+    
+
+    padding: 3px;
+}
+
+.col-lg-3 a :hover{
+
+    color: #FFFFFF;
+    text-underline-offset:#FFFFFF;
+}
+
 /* Footer end here*/
