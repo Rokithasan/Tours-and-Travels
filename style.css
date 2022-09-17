@@ -102,6 +102,19 @@ html{
    .banner-container{
        
        height: 100vh;
+       width: 100%;
+       position: relative;
+   }
+
+   .banner-content{
+     
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    padding: 15px;
+
    }
 
    .bg-cp{
@@ -117,7 +130,7 @@ html{
    }
    .fs-8{
     font-size: 15px;
-    padding: 12px;
+
    }
    .fs-7{
     font-size: 15px;
@@ -230,6 +243,38 @@ html{
        font-size: 2.5rem;
    
    }
+
+   .banner-container{
        
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.tabs_-sidebar{
+    float: left;
+    justify-content: left;
+}
+
+.button{
+    justify-items: left;
+    float: left;
+}
+
+.tabs_-sidebar{
+
+    justify-items: left;
+    float: left;
+    font-weight: 15px;
+
+}
+
        
    }
+
+   @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
