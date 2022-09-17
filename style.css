@@ -201,9 +201,17 @@ html{
     display: block;
 }
 
-.tabs_-sideba{
-    float: left;
-    margin-bottom: -30px;
+.tabs_-sidebar{
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.tabs_-sidebar :active{
+    border: none;
+    font-weight: bolder;
 }
 
 
@@ -251,10 +259,6 @@ html{
     position: relative;
 }
 
-.tabs_-sidebar{
-    float: left;
-    justify-content: left;
-}
 
 .button{
     justify-items: left;
@@ -267,6 +271,16 @@ html{
     float: left;
     font-weight: 15px;
 
+}
+
+.small{
+
+    display: inline-flex;
+    text-align: center;
+    max-height: 500px;
+    max-width: 600px;
+    height: 100%;
+    width: 100%;
 }
 
        

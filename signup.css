@@ -68,15 +68,17 @@
     background-color:#1d9fd3;
     align-items: center;
     justify-content: center;
+    
    }
 
    .form{
     border-radius: 6px;
     background-color: beige;
-    max-width: 550px;
+    max-width: 500px;
+    max-height: 600px;
+    height: 100%;
     width: 100%;
     padding: 30px;
-    margin-top: 40px;
    }
 
    header{
@@ -85,13 +87,14 @@
     color:#1d9fd3 ;
    }
 
+
    form{
     margin-top: 30px;
    }
 
    form .field{
 
-    height: 60px;
+    height: 40px;
     width: 100%;
     margin-top: 20px;
     border-radius: 6px;
@@ -131,7 +134,7 @@
 
    .btn{
 
-    height: 55px;
+    height: 40spx;
     width: 100%;
     color: #FFFFFF;
     background-color: #1d9fd3;
